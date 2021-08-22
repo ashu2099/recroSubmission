@@ -1,0 +1,35 @@
+.column {
+  padding: 0.5rem;
+
+  width: 25%;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border:1px solid #ddd;
+}
+
+.h2 {
+  text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 33.33%;
+  }
+}
